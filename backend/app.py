@@ -315,7 +315,17 @@ load_dotenv()
 app = Flask(__name__)
 
 # Allow all origins for now (we'll restrict later)
-CORS(app, resources={r"/*": {"origins": "*"}})
+# CORS(app, resources={r"/*": {"origins": "*"}})
+
+# With this:
+# This will allow everyone to access the application using the same url
+CORS(app, resources={r"/*": {"origins": [
+    "http://localhost:5173",
+    "http://localhost:3000",
+    "https://route-delay-frontend.vercel.app"  # Your actual Vercel URL
+]}})
+
+
 
 # Load model and encoder
 try:
