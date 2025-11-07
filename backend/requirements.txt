@@ -41,12 +41,27 @@
 
 
 
+# Flask==3.0.0
+# flask-cors==4.0.0
+# pandas==2.1.4
+# scikit-learn==1.4.0
+# joblib==1.3.2
+# requests==2.31.0
+# gunicorn==21.2.0
+# python-dotenv==1.0.0
+# numpy==1.24.4
+
+
+
 Flask==3.0.0
 flask-cors==4.0.0
-pandas==2.1.4
+pandas==2.2.2         
+numpy==2.1.3           
 scikit-learn==1.4.0
 joblib==1.3.2
 requests==2.31.0
 gunicorn==21.2.0
 python-dotenv==1.0.0
-numpy==1.24.4
+Cython                
+setuptools            
+wheel                 
