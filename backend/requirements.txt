@@ -1,4 +1,15 @@
-flask
-flask-cors
-requests
-geopy
+# flask
+# flask-cors
+# requests
+# geopy
+
+
+
+flask==3.0.0
+flask-cors==4.0.0
+pandas==2.1.3
+scikit-learn==1.3.2
+joblib==1.3.2
+requests==2.31.0
+gunicorn==21.2.0
+python-dotenv==1.0.0
