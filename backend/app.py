@@ -322,7 +322,7 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": [
     "http://localhost:5173",
     "http://localhost:3000",
-    "https://route-delay-frontend.vercel.app"  # Your actual Vercel URL
+    "https://ai-smart-route-predictor-nq73yul9c-ankan-kundus-projects.vercel.app"  # Your actual Vercel URL
 ]}})
 
 
